@@ -3,12 +3,14 @@
 Espace de travail local pour le pentest, le CTF et l'OSINT, disponible sur
 Linux, Windows et macOS.
 
-Un engagement entier tient au même endroit : notes horodatées, hôtes, services,
-vulnérabilités, identifiants et flags sont reliés entre eux. Les sorties de
-`nmap`, `ffuf`, `nuclei`, `httpx` et `netexec` s'importent directement, et le
-rapport se rédige à partir de ce qui a déjà été collecté.
+PwnVault rassemble un engagement complet dans une seule base locale : notes
+horodatées, hôtes, services, vulnérabilités, identifiants et flags, tous reliés
+entre eux. Les sorties de `nmap`, `ffuf`, `nuclei`, `httpx` et `netexec`
+s'importent directement, et le rapport se rédige à partir de ce qui a déjà été
+collecté.
 
-Tout reste sur votre machine : aucun compte, aucun serveur, aucune télémétrie.
+Aucune donnée ne quitte la machine : pas de compte, pas de serveur, pas de
+synchronisation, pas de télémétrie.
 
 ## Télécharger
 
@@ -37,10 +39,10 @@ chmod +x PwnVault_*.AppImage
 ./PwnVault_*.AppImage
 ```
 
-**Windows** — lancez l'installeur. Si un avertissement SmartScreen s'affiche,
+**Windows** : lancez l'installeur. Si un avertissement SmartScreen s'affiche,
 choisissez « Informations complémentaires » puis « Exécuter quand même ».
 
-**macOS** — ouvrez le `.dmg` et glissez PwnVault dans Applications. Au premier
+**macOS** : ouvrez le `.dmg` et glissez PwnVault dans Applications. Au premier
 lancement, faites un clic droit sur l'application puis « Ouvrir ».
 
 ## Configuration requise
@@ -51,5 +53,5 @@ lancement, faites un clic droit sur l'application puis « Ouvrir ».
 
 ---
 
-Par **Corneille BANKOLE** — [corneille.vercel.app](https://corneille.vercel.app/)
+Par **Corneille BANKOLE** · [corneille.vercel.app](https://corneille.vercel.app/)
 · [GitHub](https://github.com/Corneille9)
